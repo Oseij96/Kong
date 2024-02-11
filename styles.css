@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Chewy', system-ui;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Chewy', system-ui;
+    color: #fff;
+}
+
+#listings {
+    margin-top: 200px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Chewy', system-ui;
+    color: #fff;
+}
+
+#paragraph {
+    margin-right: 50px;
+    margin-top: 100px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Chewy', system-ui;
+    color: #fff;
+}
+
+#paragraph2 {
+    margin-right: 50px;
+    margin-top: 100px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Chewy', system-ui;
+    color: #fff;
+}
+
+#kong-3 {
+    margin-top: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+#kong-4 {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+.ticker-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    border: solid black 3px;
+    background-color: white;
+    color: black;
+}
+
+.ticker-text {
+    font-family: 'Fredoka', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    animation: tickerAnimation 20s linear infinite;
+    white-space: nowrap;
+    font-size: x-large;
+    font-weight: 600;
+    /* Ensures the text doesn't wrap to the next line */
+}
+
+#btn {
+    background-color: gold;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 250px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Set the same height to make it a square */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+
+#btn:hover {
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#btn:hover span {
+    color: black; /* Change the text color when hovering */
+}
+
+#btn span {
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    /* Adjust text color */
+    font-size: 1.6rem;
+    font-weight: 500;
+    /* Adjust font weight if needed */
+    text-align: center;
+    cursor: pointer;
+}
+
+#red {
+    color: crimson;
+}
+
+#icon {
+    margin-right: 10px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+@keyframes tickerAnimation {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
